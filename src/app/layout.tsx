@@ -5,6 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/mtv.png",
+  },
   title: "Medal Bypass - Download Medal Clips Without Watermark",
   description: "Bypass the premium requirement and download your favorite Medal.tv clips directly to MP4 without watermarks. Fast, free, and easy to use.",
   keywords: ["medal.tv", "medal bypass", "medal clip downloader", "download medal clips", "no watermark medal", "medal downloader"],
