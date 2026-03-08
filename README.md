@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Medal Bypass 🎮
 
-## Getting Started
+A fast, modern, and ad-free web application to bypass premium requirements and download your favorite Medal.tv clips directly to MP4 without watermarks. 
 
-First, run the development server:
+Built with **Next.js**, **Tailwind CSS**, and **Lucide Icons** for a sleek, dark-mode-first user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*   **No Watermarks:** Download originally uploaded MP4 files directly from Medal's servers.
+*   **Lightning Fast:** Bypasses unnecessary ads, popups, and artificial wait times.
+*   **Modern UI/UX:** Features a premium "Quiet Luxury" aesthetic with dynamic gradients, glassmorphism, and smooth animations.
+*   **Fully Responsive:** Works perfectly on Desktop, Tablet, and Mobile.
+*   **SEO Optimized:** Pre-configured with dynamic `sitemap.xml`, `robots.txt`, OpenGraph meta tags, and Google Analytics tracking.
+*   **100% Client-Side Ready:** Built for instant interactions using React state management.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+*   **Icons:** [Lucide React](https://lucide.dev/)
+*   **Language:** [TypeScript](https://www.typescriptlang.org/)
+*   **Deployment:** [Vercel](https://vercel.com/) (Recommended)
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+To run this project locally, simply follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
+Make sure you have Node.js (v18 or higher) installed on your machine.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Installation
 
-## Deploy on Vercel
+1. Clone the repository (or download the source code).
+2. Open your terminal and navigate to the project directory:
+   ```bash
+   cd "web"
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📈 SEO & Analytics
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is configured for Google Search Console and Google Analytics.
+*   Analytics ID is configured inside the `<head>` section in `src/app/layout.tsx`.
+*   A Google Site Verification HTML file is located in the `public` folder.
+
+## 📝 Disclaimer
+
+This project is created for educational and utility purposes. Use responsibly and respect the content creators.
