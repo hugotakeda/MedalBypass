@@ -5,8 +5,25 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Medal Bypass",
-  description: "Download Medal clips without watermarks.",
+  title: "Medal Bypass - Download Medal Clips Without Watermark",
+  description: "Bypass the premium requirement and download your favorite Medal.tv clips directly to MP4 without watermarks. Fast, free, and easy to use.",
+  keywords: ["medal.tv", "medal bypass", "medal clip downloader", "download medal clips", "no watermark medal", "medal downloader"],
+  openGraph: {
+    title: "Medal Bypass - Download Medal Clips Without Watermark",
+    description: "Bypass the premium requirement and download your favorite Medal.tv clips directly to MP4 without watermarks.",
+    url: "https://medal-bypass-nine.vercel.app/",
+    siteName: "Medal Bypass",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Medal Bypass",
+    description: "Download Medal clips without watermarks for free.",
+  },
+  verification: {
+    google: "jLBHF_r5-stLvqmugNDjv0-DeZtZjioBRsDjJWr2Kzw",
+  },
 };
 
 export default function RootLayout({
