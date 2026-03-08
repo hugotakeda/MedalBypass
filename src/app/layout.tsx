@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   icons: {
     icon: "/mtv.png",
   },
-  title: "Medal Bypass - Download Medal Clips Without Watermark",
+  title: "Medal Bypass",
   description: "Bypass the premium requirement and download your favorite Medal.tv clips directly to MP4 without watermarks. Fast, free, and easy to use.",
   keywords: ["medal.tv", "medal bypass", "medal clip downloader", "download medal clips", "no watermark medal", "medal downloader"],
   openGraph: {
-    title: "Medal Bypass - Download Medal Clips Without Watermark",
+    title: "Medal Bypass",
     description: "Bypass the premium requirement and download your favorite Medal.tv clips directly to MP4 without watermarks.",
     url: "https://medal-bypass-nine.vercel.app/",
     siteName: "Medal Bypass",
