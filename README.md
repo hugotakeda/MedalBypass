@@ -6,7 +6,7 @@ A fast, modern, and ad-free web application designed to download your favorite M
 
 Built with **Next.js 14**, **Tailwind CSS**, and **Lucide Icons** for a premium, dark-mode-first user experience.
 
-> 🌐 **Live Demo:** [medal-bypass-nine.vercel.app](https://medal-bypass-nine.vercel.app)
+> 🌐 **Live Demo:** [medal-bypass-pts.vercel.app](https://medal-bypass-pts.vercel.app)
 
 -----
 
